@@ -15,8 +15,8 @@ public class RenameUtil {
     /**
      * 返回新的文件名称
      *
-     * @param: [oldName]
-     * @return: java.lang.String
+     * @param oldName 要修改的文件名称
+     * @return java.lang.String
      */
     public static String getNewName(String oldName) {
         String newName;
@@ -34,8 +34,9 @@ public class RenameUtil {
     /**
      * 重命名单个文件
      *
-     * @param: [file, fileName]
-     * @return: void
+     * @param file 文件
+     * @param fileName 修改后的文件名
+     * @return void
      */
     public static void rename(File file, String fileName) {
         //文件类型不是目录
@@ -49,8 +50,8 @@ public class RenameUtil {
     /**
      * 重命名音乐目录下文件
      *
-     * @param: [directoryFile]
-     * @return: void
+     * @param directoryFile 文件目录
+     * @return void
      */
     public static void renameMusicDirectory(File directoryFile) {
         if (directoryFile.isDirectory()) {
