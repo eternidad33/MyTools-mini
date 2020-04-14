@@ -1,5 +1,7 @@
 # 将仓库文件链接转换成Markdown格式
 
+详细设计步骤可参考我的[博客](https://blog.csdn.net/qq_42907802/article/details/105514102)
+
 ### 背景
 
 在GitHub的README文件中为自己的文章生成目录，由于一行一行的重复类似的代码，一个一个的打字比较麻烦，所以就想到设计一个程序转换Markdown格式。
